@@ -14,34 +14,38 @@
 
 <body>
 
+    <!-- Header -->
     <header>
-        <nav class="nav-bar">
-            <!-- filter icon -->
-            <span>
-                <i class="nav-icon fa-solid fa-filter"></i>
-            </span>
+        <div class="header">
 
-            <h1 class="brand-name">ShopMe</h1>
+            <div class="nav-bar">
+                <!-- filter icon -->
+                <span>
+                    <i class="nav-icon  active-icon fa-solid fa-filter"></i>
+                </span>
 
-            <!-- search -->
-            <span>
-                <i class="nav-icon fa-solid fa-magnifying-glass"></i>
-            </span>
-        </nav>
+                <h1 class="brand-name">ShopMe</h1>
 
-        <div class="search-container"> <input class="search-bar" type="search" name="search" id="search"
-                placeholder="Type something...">
+                <!-- search -->
+                <span>
+                    <i class="nav-icon fa-solid fa-magnifying-glass"></i>
+                </span>
+            </div>
+
+            <form class="search-container">
+                <input class="search-bar" type="search" name="search" id="search" placeholder="Type something...">
+            </form>
+
+            <div class="filter-container">
+                <a class="filter-item active" href="#" data-filter>All</a>
+                <a class="filter-item" href="#" data-filter>Shoes</a>
+                <a class="filter-item" href="#" data-filter>Hat</a>
+                <a class="filter-item" href="#" data-filter>Watch</a>
+                <a class="filter-item" href="#" data-filter>Shirt</a>
+                <a class="filter-item" href="#" data-filter>Glasses</a>
+            </div>
+
         </div>
-
-        <div class="filter-container">
-            <ul class="filter-list">
-                <li class="active">Shoes</li>
-                <li>Pants</li>
-                <li>Hat</li>
-                <li>Shirt</li>
-            </ul>
-        </div>
-
 
     </header>
 
