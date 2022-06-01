@@ -11,12 +11,23 @@ body {
     font-size: 15px;
 }
 
+body::-webkit-scrollbar {
+    background-color: var(--main-white);
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--main-gray);
+    border-radius: 15px;
+}
+
 :root {
-    --primary-color: #000a7c;
+    --primary-color: #5c4fd2;
     --main-bg-color: #ececec;
     --main-card-bg: #FBFBFB;
     --main-white: #FFFFFF;
     --main-black: #000000;
+    --main-gray: #3a3a3a;
     --main-shadow: 0px 15px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
@@ -48,13 +59,9 @@ body {
 .filter-container {
     position: relative;
     width: 100%;
-    display: flex;
     padding: 1em;
     align-items: center;
     justify-content: center;
-}
-
-.search-container {
     display: none;
 }
 
@@ -62,7 +69,6 @@ body {
     width: 100%;
     height: 55px;
     border: 3px solid var(--main-black);
-    /* border: 3px solid var(--primary-color); */
     outline: none;
     font-weight: bold;
     border-radius: 15px;
@@ -80,14 +86,13 @@ body {
     width: 100%;
     list-style-type: none;
     gap: 1em;
-    display: grid;
     justify-content: center;
     grid-template-columns: repeat(3, minmax(70px, 1fr));
 }
 
 .filter-item,
 .filter-item:visited {
-    border: 3px solid var(--main-black);
+    border: 1px solid var(--main-white);
     color: var(--main-black);
     text-decoration: none;
     border-radius: 7px;
@@ -97,21 +102,18 @@ body {
 }
 
 .active {
-    background-color: var(--main-black);
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
     color: var(--main-white) !important;
 }
 
 .filter-item:hover {
-    border: 3px solid var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
 
 .filter-link,
 .filter-link:visited {
     color: var(--main-black);
-}
-
-.filter-list>.active {
-    background-color: var(--main-black);
 }
 
 /*---------
