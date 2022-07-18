@@ -1,0 +1,116 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "title": "SEIKO watch with metal band",
+            "class": "watch",
+            "price": 83.99,
+            "image": "/product-pics/seiko-watch.jpg"
+        },
+        {
+            "id": 2,
+            "title": "URBAN CLASSICS black tropical shirt",
+            "class": "shirt",
+            "price": 36,
+            "image": "/product-pics/black-feather-shirt.jpg"
+        },
+        {
+            "id": 3,
+            "title": "ALL STAR High BL shoes",
+            "class": "shoes",
+            "price": 65,
+            "image": "/product-pics/all-star-shoes.jpg"
+        },
+        {
+            "id": 4,
+            "title": "FLS gray glasses",
+            "class": "glasses",
+            "price": 66.99,
+            "image": "/product-pics/fls-glasses.jpg"
+        },
+        {
+            "id": 5,
+            "title": "EXATRES greyish blue shirt ",
+            "class": "shirt",
+            "price": 25.99,
+            "image": "/product-pics/gray-shirt.jpg"
+        },
+        {
+            "id": 6,
+            "title": "VIVA shoes (Dark Blue)",
+            "class": "shoes",
+            "price": 83.99,
+            "image": "/product-pics/blue-viva-shoes.jpg"
+        },
+        {
+            "id": 7,
+            "title": "NAVI FORCE leather band watch",
+            "class": "watch",
+            "price": 100,
+            "image": "/product-pics/brown-band-watch.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Blue tropical Hawaii shirt",
+            "class": "shirt",
+            "price": 18,
+            "image": "/product-pics/seiko-watch.jpg"
+        },
+        {
+            "id": 9,
+            "title": "Cuervo y Sobrinos dark blue band watch",
+            "class": "watch",
+            "price": 83.99,
+            "image": "/product-pics/seiko-watch.jpg"
+        },
+        {
+            "id": 10,
+            "title": "RAYBAN gray sunglasses",
+            "class": "glasses",
+            "price": 63,
+            "image": "/product-pics/rayban-glasses.jpg"
+        },
+        {
+            "id": 11,
+            "title": "KIKI RIKI red and gray shirt",
+            "class": "shirt",
+            "price": 39.20,
+            "image": "/product-pics/red-shirt.jpg"
+        },
+        {
+            "id": 12,
+            "title": "GOOD LOOK sunglasses",
+            "class": "glasses",
+            "price": 58,
+            "image": "/product-pics/good-look-glasses.jpg"
+        },
+        {
+            "id": 13,
+            "title": "PAMA 2020 hiking shoes",
+            "class": "shoes",
+            "price": 74.60,
+            "image": "/product-pics/hiking-shoes.jpg"
+        },
+        {
+            "id": 14,
+            "title": "SKMEI full black watch",
+            "class": "watch",
+            "price": 80,
+            "image": "/product-pics/black-watch.jpg"
+        },
+        {
+            "id": 15,
+            "title": "RAYBAN green sunglasses",
+            "class": "glasses",
+            "price": 60.99,
+            "image": "/product-pics/green-rayban-glasses.jpg"
+        },
+        {
+            "id": 16,
+            "title": "PAMA sport shoes",
+            "class": "watch",
+            "price": 73,
+            "image": "/product-pics/pama-shoes.jpg"
+        }
+    ]
+}
