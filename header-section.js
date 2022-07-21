@@ -4,13 +4,25 @@ const searchBar = document.querySelector(".search-container");
 const searchIcon = document.getElementById("search-icon");
 const filterIcon = document.getElementById("filter-icon");
 
+const filterButtons = document.querySelectorAll(".filter-btn");
+
+const activeFilter = document.querySelector(".active-filter");
+
 
 /*-------------
 EVENT LISTENERS
 ---------------*/
 searchIcon.addEventListener("click", showSearchBar);
+
 filterIcon.addEventListener("click", showFilters);
 
+filterButtons.forEach(btn => {
+    btn.addEventListener("click", (e) => {
+        const activeFilter = document.querySelector(".active-filter");
+        activeFilter.classList.remove("active-filter");
+        e.target.classList.add("active-filter");
+    });
+})
 /*-------------
     FUNCTIONS
 ---------------*/
