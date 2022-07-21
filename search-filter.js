@@ -1,31 +1,34 @@
-const filterSection = document.querySelector(".filter-container");
-const searchBar = document.querySelector(".search-container");
+//  -------Variables-------- //
+const searchInput = document.querySelector("#search");
+let allProductsData = [];// it'll store all the products data
+let filters = {
+    searchItem: ""
+};
 
-const searchIcon = document.getElementById("search-icon");
-const filterIcon = document.getElementById("filter-icon");
+//  -------Event Listeners-------- //
 
-/*-------------
-EVENT LISTENERS
----------------*/
-searchIcon.addEventListener("click", showSearchBar);
-filterIcon.addEventListener("click", showFilters);
+//load all products data when page is loaded
+document.addEventListener("DOMContentLoaded", () => {
 
-/*-------------
-    FUNCTIONS
----------------*/
+    axios.get("http://localhost:3000/items").then(res => {
+        allProductsData = res.data;
+        //render the products
+        renderProducts(allProductsData, filters);
+    }).catch(err => console.log(err));
 
-function showSearchBar(e) {
-    searchBar.style.display = "block";
-    filterSection.style.display = "none";
-    //e == searchIcon
-    e.target.classList.add("active-icon");
-    filterIcon.classList.remove("active-icon");
-}
+});
 
-function showFilters(e) {
-    filterSection.style.display = "grid";
-    searchBar.style.display = "none";
-    //e == filterIcon
-    e.target.classList.add("active-icon");
-    searchIcon.classList.remove("active-icon");
+//filter products with search input
+searchInput.addEventListener("input", (e) => {
+    filters.searchItem = e.target.value;
+    renderProducts(allProductsData, filters);//render products with new searchItem value
+});
+
+//  -------functions-------- //
+
+function renderProducts(_products, _filters) {
+    const filteredProducts = _products.filter((p) => {//filter the products base on searched item
+        return p.title.toLowerCase().includes(_filters.searchItem.toLowerCase());
+    });
+    //todo render to DOM
 }
