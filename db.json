@@ -5,112 +5,144 @@
             "title": "SEIKO watch with metal band",
             "class": "watch",
             "price": 83.99,
-            "image": "/images/seiko-watch.jpg"
+            "image": "/images/seiko-watch.jpg",
+            "imageAlt": "SEIKO watch with metal band",
+            "rate": 4.3
         },
         {
             "id": 2,
             "title": "URBAN CLASSICS black tropical shirt",
             "class": "shirt",
             "price": 36,
-            "image": "/images/black-feather-shirt.jpg"
+            "image": "/images/black-feather-shirt.jpg",
+            "imageAlt": "URBAN CLASSICS black tropical shirt",
+            "rate": 4.1
         },
         {
             "id": 3,
             "title": "ALL STAR High BL shoes",
             "class": "shoes",
             "price": 65,
-            "image": "/images/all-star-shoes.jpg"
+            "image": "/images/all-star-shoes.jpg",
+            "imageAlt": "ALL STAR High BL shoes",
+            "rate": 4.5
         },
         {
             "id": 4,
             "title": "FLS gray glasses",
             "class": "glasses",
             "price": 66.99,
-            "image": "/images/fls-glasses.jpg"
+            "image": "/images/fls-glasses.jpg",
+            "imageAlt": "FLS gray glasses",
+            "rate": 4.3
         },
         {
             "id": 5,
-            "title": "EXATRES greyish blue shirt ",
+            "title": "EXATRES greyish blue shirt",
             "class": "shirt",
             "price": 25.99,
-            "image": "/images/gray-shirt.jpg"
+            "image": "/images/gray-shirt.jpg",
+            "imageAlt": "EXATRES greyish blue shirt",
+            "rate": 3.8
         },
         {
             "id": 6,
-            "title": "VIVA shoes (Dark Blue)",
+            "title": "VIVA Dark Blue shoes",
             "class": "shoes",
             "price": 83.99,
-            "image": "/images/blue-viva-shoes.jpg"
+            "image": "/images/blue-viva-shoes.jpg",
+            "imageAlt": "VIVA Dark Blue shoes",
+            "rate": 4
         },
         {
             "id": 7,
             "title": "NAVI FORCE leather band watch",
             "class": "watch",
             "price": 100,
-            "image": "/images/brown-band-watch.jpg"
+            "image": "/images/brown-band-watch.jpg",
+            "imageAlt": "NAVI FORCE leather band watch",
+            "rate": 4.4
         },
         {
             "id": 8,
             "title": "Blue tropical Hawaii shirt",
             "class": "shirt",
             "price": 18,
-            "image": "/images/seiko-watch.jpg"
+            "image": "/images/seiko-watch.jpg",
+            "imageAlt": "Blue tropical Hawaii shirt",
+            "rate": 4.2
         },
         {
             "id": 9,
             "title": "Cuervo y Sobrinos dark blue band watch",
             "class": "watch",
             "price": 83.99,
-            "image": "/images/seiko-watch.jpg"
+            "image": "/images/seiko-watch.jpg",
+            "imageAlt": "Cuervo y Sobrinos dark blue band watch",
+            "rate": 4.6
         },
         {
             "id": 10,
             "title": "RAYBAN gray sunglasses",
             "class": "glasses",
             "price": 63,
-            "image": "/images/rayban-glasses.jpg"
+            "image": "/images/rayban-glasses.jpg",
+            "imageAlt": "RAYBAN gray sunglasses",
+            "rate": 4.3
         },
         {
             "id": 11,
             "title": "KIKI RIKI red and gray shirt",
             "class": "shirt",
             "price": 39.20,
-            "image": "/images/red-shirt.jpg"
+            "image": "/images/red-shirt.jpg",
+            "imageAlt": "KIKI RIKI red and gray shirt",
+            "rate": 4.1
         },
         {
             "id": 12,
             "title": "GOOD LOOK sunglasses",
             "class": "glasses",
             "price": 58,
-            "image": "/images/good-look-glasses.jpg"
+            "image": "/images/good-look-glasses.jpg",
+            "imageAlt": "GOOD LOOK sunglasses",
+            "rate": 4.4
         },
         {
             "id": 13,
             "title": "PAMA 2020 hiking shoes",
             "class": "shoes",
             "price": 74.60,
-            "image": "/images/hiking-shoes.jpg"
+            "image": "/images/hiking-shoes.jpg",
+            "imageAlt": "PAMA 2020 hiking shoes",
+            "rate": 4.3
         },
         {
             "id": 14,
             "title": "SKMEI full black watch",
             "class": "watch",
             "price": 80,
-            "image": "/images/black-watch.jpg"
+            "image": "/images/black-watch.jpg",
+            "imageAlt": "SKMEI full black watch",
+            "rate": 4.5
         },
         {
             "id": 15,
             "title": "RAYBAN green sunglasses",
             "class": "glasses",
             "price": 60.99,
-            "image": "/images/green-rayban-glasses.jpg"
+            "image": "/images/green-rayban-glasses.jpg",
+            "imageAlt": "RAYBAN green sunglasses",
+            "rate": 4.1
         },
         {
             "id": 16,
             "title": "PAMA sport shoes",
             "class": "watch",
             "price": 73,
-            "image": "/images/pama-shoes.jpg"
+            "image": "/images/pama-shoes.jpg",
+            "imageAlt": "PAMA sport shoes",
+            "rate": 4.4
         }
     ]
 }
