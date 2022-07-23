@@ -1,13 +1,10 @@
 const filterSection = document.querySelector(".filter-container");
 const searchBar = document.querySelector(".search-container");
-
 const searchIcon = document.getElementById("search-icon");
 const filterIcon = document.getElementById("filter-icon");
-
 const filterButtons = document.querySelectorAll(".filter-btn");
-
 const activeFilter = document.querySelector(".active-filter");
-
+const searchInput = document.querySelector(".search-bar");
 
 /*-------------
 EVENT LISTENERS
@@ -38,6 +35,7 @@ function showSearchBar(e) {
 function showFilters(e) {
     filterSection.style.display = "grid";
     searchBar.style.display = "none";
+    searchInput.value = "";
     //e == filterIcon
     e.target.classList.add("active-icon");
     searchIcon.classList.remove("active-icon");
