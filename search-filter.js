@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //filter products with search input
 searchInput.addEventListener("input", (e) => {
+    e.preventDefault();//prevent refreshing the page
     filters.searchItem = e.target.value;
     renderProducts(allProductsData, filters);//render products with new searchItem value
 });
