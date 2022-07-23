@@ -12,9 +12,9 @@ const filterBtns = document.querySelectorAll(".filter-btn");//all the filter btn
 //load all products data when page is loaded
 document.addEventListener("DOMContentLoaded", () => {
 
-    axios.get("http://localhost:3000/items").then(res => {
-        allProductsData = res.data;
-        console.log(res.data);
+    axios.get("https://api.jsonbin.io/v3/b/62dc6eae8ebcdb75883de851").then(res => {
+        allProductsData = res.data.record.items;
+        console.log(res.data.record.items);
         //render the products
         renderProducts(allProductsData, filters);
     }).catch(err => console.log(err));
