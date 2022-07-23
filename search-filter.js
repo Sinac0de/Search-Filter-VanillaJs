@@ -6,6 +6,7 @@ let filters = {
 };
 const productsDOM = document.querySelector(".products");
 const filterBtns = document.querySelectorAll(".filter-btn");//all the filter btns
+const form = document.querySelector("form");
 
 //  -------Event Listeners-------- //
 
@@ -23,9 +24,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //filter products with search input
 searchInput.addEventListener("input", (e) => {
-    e.preventDefault();//prevent refreshing the page
     filters.searchItem = e.target.value;
     renderProducts(allProductsData, filters);//render products with new searchItem value
+});
+
+//prevent reloading page when hitting enter in search box
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
 });
 
 filterBtns.forEach(btn => {
