@@ -4,7 +4,7 @@ const searchIcon = document.getElementById("search-icon");
 const filterIcon = document.getElementById("filter-icon");
 const filterButtons = document.querySelectorAll(".filter-btn");
 const activeFilter = document.querySelector(".active-filter");
-const searchInput = document.querySelector(".search-bar");
+const searchBox = document.querySelector(".search-bar");
 
 /*-------------
 EVENT LISTENERS
